@@ -1,0 +1,1168 @@
+{
+    "best": {
+        "cos(2\u03c0x)": {
+            "hidden_count": 10,
+            "hidden_size": 116,
+            "activation": "tanh",
+            "learning_rate": 0.00015696928046478537,
+            "epochs": 21,
+            "r2": 0.9902001754768724,
+            "mape": 34,
+            "rmse": 0.0706264909711967
+        },
+        "5x^3 + x^2 + 5": {
+            "hidden_count": 1,
+            "hidden_size": 113,
+            "activation": "relu",
+            "learning_rate": 0.025090508733230144,
+            "epochs": 23,
+            "r2": 0.9950855406532157,
+            "mape": 1,
+            "rmse": 0.1141340627068413
+        },
+        "x sin(2\u03c0x)": {
+            "hidden_count": 9,
+            "hidden_size": 85,
+            "activation": "tanh",
+            "learning_rate": 0.0029312113726972138,
+            "epochs": 42,
+            "r2": 0.9868434754393598,
+            "mape": 104254,
+            "rmse": 0.04262424913974236
+        }
+    },
+    "by_activation": {
+        "cos(2\u03c0x)": {
+            "sigmoid": {
+                "hidden_count": 0,
+                "hidden_size": 91,
+                "activation": "sigmoid",
+                "learning_rate": 0.14573113682016034,
+                "epochs": 21,
+                "r2": 0.8820998022381933,
+                "mape": 48,
+                "rmse": 0.24497160428235956
+            },
+            "relu": {
+                "hidden_count": 7,
+                "hidden_size": 116,
+                "activation": "relu",
+                "learning_rate": 0.006555404555943717,
+                "epochs": 66,
+                "r2": 0.9801294806984289,
+                "mape": 63,
+                "rmse": 0.10056875833187719
+            },
+            "leaky-relu": {
+                "hidden_count": 6,
+                "hidden_size": 39,
+                "activation": "leaky-relu",
+                "learning_rate": 0.014241873698697153,
+                "epochs": 21,
+                "r2": 0.9771286140415296,
+                "mape": 45,
+                "rmse": 0.10789584507935876
+            },
+            "tanh": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9902001754768724,
+                "mape": 34,
+                "rmse": 0.0706264909711967
+            }
+        },
+        "5x^3 + x^2 + 5": {
+            "sigmoid": {
+                "hidden_count": 1,
+                "hidden_size": 92,
+                "activation": "sigmoid",
+                "learning_rate": 0.0688111677338788,
+                "epochs": 24,
+                "r2": 0.9754399871640308,
+                "mape": 3,
+                "rmse": 0.2551477235921712
+            },
+            "relu": {
+                "hidden_count": 1,
+                "hidden_size": 113,
+                "activation": "relu",
+                "learning_rate": 0.025090508733230144,
+                "epochs": 23,
+                "r2": 0.9950855406532157,
+                "mape": 1,
+                "rmse": 0.1141340627068413
+            },
+            "leaky-relu": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9882356675867602,
+                "mape": 1,
+                "rmse": 0.1765879427035954
+            },
+            "tanh": {
+                "hidden_count": 0,
+                "hidden_size": 17,
+                "activation": "tanh",
+                "learning_rate": 0.05313551324081298,
+                "epochs": 25,
+                "r2": 0.979404517741173,
+                "mape": 1,
+                "rmse": 0.23364870920050282
+            }
+        },
+        "x sin(2\u03c0x)": {
+            "sigmoid": {
+                "hidden_count": 1,
+                "hidden_size": 94,
+                "activation": "sigmoid",
+                "learning_rate": 0.15154052031106816,
+                "epochs": 86,
+                "r2": 0.9696994692437203,
+                "mape": 41694,
+                "rmse": 0.06468614488178705
+            },
+            "relu": {
+                "hidden_count": 7,
+                "hidden_size": 25,
+                "activation": "relu",
+                "learning_rate": 0.05427992385012899,
+                "epochs": 42,
+                "r2": 0.9830019399637793,
+                "mape": 44965,
+                "rmse": 0.0484491130191817
+            },
+            "leaky-relu": {
+                "hidden_count": 5,
+                "hidden_size": 10,
+                "activation": "leaky-relu",
+                "learning_rate": 0.048706478916175154,
+                "epochs": 32,
+                "r2": 0.8947730396161154,
+                "mape": 35313,
+                "rmse": 0.1205451284115942
+            },
+            "tanh": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9868434754393598,
+                "mape": 104254,
+                "rmse": 0.04262424913974236
+            }
+        }
+    },
+    "by_noise": {
+        "cos(2\u03c0x)": {
+            "0": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9994743994272769,
+                "mape": 7,
+                "rmse": 0.016356349971494703
+            },
+            "0.1": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9902001754768724,
+                "mape": 34,
+                "rmse": 0.0706264909711967
+            },
+            "0.2": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9684148380039552,
+                "mape": 63,
+                "rmse": 0.1267943886022627
+            },
+            "0.3": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.7246756272417394,
+                "mape": 168,
+                "rmse": 0.3743525612134165
+            },
+            "0.4": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9629804588456403,
+                "mape": 78,
+                "rmse": 0.13726948214821605
+            },
+            "0.5": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.897886053492043,
+                "mape": 118,
+                "rmse": 0.22798223669364862
+            },
+            "0.6": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9869773664207683,
+                "mape": 12,
+                "rmse": 0.08141564915255536
+            },
+            "0.7": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9707341274262573,
+                "mape": 43,
+                "rmse": 0.12205040312443795
+            },
+            "0.8": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9467751363271232,
+                "mape": 71,
+                "rmse": 0.16459466654617974
+            },
+            "0.9": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.7557727031585859,
+                "mape": 211,
+                "rmse": 0.3525783011607563
+            },
+            "1": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9048896447543662,
+                "mape": 78,
+                "rmse": 0.22002517822452985
+            },
+            "2": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.6534895192138399,
+                "mape": 240,
+                "rmse": 0.4199684516595032
+            },
+            "10": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": -8.68543691530326,
+                "mape": 901,
+                "rmse": 2.2203328680377883
+            }
+        },
+        "5x^3 + x^2 + 5": {
+            "0": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9999921799835528,
+                "mape": 0,
+                "rmse": 0.004552827925877909
+            },
+            "0.1": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9882356675867602,
+                "mape": 1,
+                "rmse": 0.1765879427035954
+            },
+            "0.2": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9758336531853948,
+                "mape": 3,
+                "rmse": 0.2530946151126521
+            },
+            "0.3": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.974167382964087,
+                "mape": 3,
+                "rmse": 0.261674622341022
+            },
+            "0.4": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.7153636357923538,
+                "mape": 11,
+                "rmse": 0.8686055398074312
+            },
+            "0.5": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9424485134999593,
+                "mape": 5,
+                "rmse": 0.39057611026842687
+            },
+            "0.6": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.8732716334455386,
+                "mape": 8,
+                "rmse": 0.5795812427902622
+            },
+            "0.7": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": null,
+                "mape": null,
+                "rmse": null
+            },
+            "0.8": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": null,
+                "mape": null,
+                "rmse": null
+            },
+            "0.9": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": null,
+                "mape": null,
+                "rmse": null
+            },
+            "1": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": null,
+                "mape": null,
+                "rmse": null
+            },
+            "2": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": null,
+                "mape": null,
+                "rmse": null
+            },
+            "10": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": null,
+                "mape": null,
+                "rmse": null
+            }
+        },
+        "x sin(2\u03c0x)": {
+            "0": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9995471311134347,
+                "mape": 3843,
+                "rmse": 0.00790810438784873
+            },
+            "0.1": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9868434754393598,
+                "mape": 104254,
+                "rmse": 0.04262424913974236
+            },
+            "0.2": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9407186471098408,
+                "mape": 105103,
+                "rmse": 0.09047846091121263
+            },
+            "0.3": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.7472058511455557,
+                "mape": 164491,
+                "rmse": 0.18683991455974952
+            },
+            "0.4": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8722888774893884,
+                "mape": 441224,
+                "rmse": 0.13280074527222635
+            },
+            "0.5": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.7212247535875552,
+                "mape": 275660,
+                "rmse": 0.1962064388535439
+            },
+            "0.6": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.23732424971403077,
+                "mape": 612503,
+                "rmse": 0.32453094934054627
+            },
+            "0.7": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.7594862211617808,
+                "mape": 511321,
+                "rmse": 0.18224521405288657
+            },
+            "0.8": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8728520347625912,
+                "mape": 146588,
+                "rmse": 0.13250762149138295
+            },
+            "0.9": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.4224067135253887,
+                "mape": 534354,
+                "rmse": 0.28242115158745695
+            },
+            "1": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.7045209796458579,
+                "mape": 92167,
+                "rmse": 0.20199911952925198
+            },
+            "2": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.5716775244519985,
+                "mape": 248419,
+                "rmse": 0.2432044869933217
+            },
+            "10": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": -16.123046684159966,
+                "mape": 2322637,
+                "rmse": 1.5377179061423165
+            }
+        }
+    },
+    "by_n": {
+        "cos(2\u03c0x)": {
+            "10": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.41664569870625745,
+                "mape": 102,
+                "rmse": 0.5449098792540995
+            },
+            "20": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.5929514685770034,
+                "mape": 130,
+                "rmse": 0.45517832742041947
+            },
+            "30": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9285011971965327,
+                "mape": 91,
+                "rmse": 0.1907690269443547
+            },
+            "40": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9546831832086369,
+                "mape": 60,
+                "rmse": 0.1518756597445491
+            },
+            "50": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9274669187684914,
+                "mape": 46,
+                "rmse": 0.1921438741236491
+            },
+            "60": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9847718543591653,
+                "mape": 37,
+                "rmse": 0.08804039662733311
+            },
+            "70": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9807249116163077,
+                "mape": 20,
+                "rmse": 0.09905049918964139
+            },
+            "80": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9808484091115585,
+                "mape": 57,
+                "rmse": 0.098732675866661
+            },
+            "90": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9801765586016535,
+                "mape": 42,
+                "rmse": 0.10044955223940694
+            },
+            "100": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9920277271244332,
+                "mape": 12,
+                "rmse": 0.0637014850816724
+            },
+            "125": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.998216816206077,
+                "mape": 8,
+                "rmse": 0.030127044836835037
+            },
+            "250": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9779867829027937,
+                "mape": 44,
+                "rmse": 0.1058522851100078
+            },
+            "500": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9902001754768724,
+                "mape": 34,
+                "rmse": 0.0706264909711967
+            },
+            "750": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9869211667113481,
+                "mape": 31,
+                "rmse": 0.08159113631273018
+            },
+            "1000": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9862083804014146,
+                "mape": 39,
+                "rmse": 0.08378496922972725
+            },
+            "1250": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9786922578412367,
+                "mape": 44,
+                "rmse": 0.10414230744524947
+            },
+            "2500": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.992140415975222,
+                "mape": 26,
+                "rmse": 0.06324966944804546
+            },
+            "5000": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9965597627751789,
+                "mape": 14,
+                "rmse": 0.0418458770743151
+            },
+            "7500": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9979653870046009,
+                "mape": 19,
+                "rmse": 0.03218098897735095
+            },
+            "10000": {
+                "hidden_count": 10,
+                "hidden_size": 116,
+                "activation": "tanh",
+                "learning_rate": 0.00015696928046478537,
+                "epochs": 21,
+                "r2": 0.9962341385424159,
+                "mape": 15,
+                "rmse": 0.04378150121245593
+            }
+        },
+        "5x^3 + x^2 + 5": {
+            "10": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.8424055632772083,
+                "mape": 7,
+                "rmse": 0.6463203709286913
+            },
+            "20": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.8493224943934871,
+                "mape": 7,
+                "rmse": 0.6319774966157058
+            },
+            "30": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9151531015593043,
+                "mape": 5,
+                "rmse": 0.47423695007262356
+            },
+            "40": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9570316346161031,
+                "mape": 4,
+                "rmse": 0.33748293658520395
+            },
+            "50": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9286374693829484,
+                "mape": 4,
+                "rmse": 0.4349231495733892
+            },
+            "60": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9546673155967785,
+                "mape": 4,
+                "rmse": 0.3466435483654111
+            },
+            "70": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9760430869581986,
+                "mape": 3,
+                "rmse": 0.2519955266966593
+            },
+            "80": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9703811323609938,
+                "mape": 3,
+                "rmse": 0.28019580488212026
+            },
+            "90": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9634742221761025,
+                "mape": 3,
+                "rmse": 0.3111552548045141
+            },
+            "100": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9357470944496384,
+                "mape": 4,
+                "rmse": 0.4126898512439109
+            },
+            "125": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9822958517650198,
+                "mape": 2,
+                "rmse": 0.21662816545043853
+            },
+            "250": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9871911882550974,
+                "mape": 2,
+                "rmse": 0.18426032149947186
+            },
+            "500": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9882356675867602,
+                "mape": 1,
+                "rmse": 0.1765879427035954
+            },
+            "750": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9942315715071721,
+                "mape": 1,
+                "rmse": 0.12365342778430582
+            },
+            "1000": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9942662545556119,
+                "mape": 1,
+                "rmse": 0.12328113021902848
+            },
+            "1250": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9935594370368364,
+                "mape": 1,
+                "rmse": 0.13065899649927634
+            },
+            "2500": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9960992454322456,
+                "mape": 1,
+                "rmse": 0.10168378790025712
+            },
+            "5000": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9971705523112049,
+                "mape": 1,
+                "rmse": 0.08660206300298619
+            },
+            "7500": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.998203180148348,
+                "mape": 0,
+                "rmse": 0.0690128037729669
+            },
+            "10000": {
+                "hidden_count": 5,
+                "hidden_size": 35,
+                "activation": "leaky-relu",
+                "learning_rate": 0.00955960198906801,
+                "epochs": 1000,
+                "r2": 0.9968123139088966,
+                "mape": 1,
+                "rmse": 0.0919210924096774
+            }
+        },
+        "x sin(2\u03c0x)": {
+            "10": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.6196608805831787,
+                "mape": 859269,
+                "rmse": 0.22917732689527698
+            },
+            "20": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8778493231669792,
+                "mape": 230006,
+                "rmse": 0.12987755076248786
+            },
+            "30": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8679847957184156,
+                "mape": 1050595,
+                "rmse": 0.13502000733915898
+            },
+            "40": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8532341115726089,
+                "mape": 12445,
+                "rmse": 0.1423635192018502
+            },
+            "50": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8706299763842497,
+                "mape": 844891,
+                "rmse": 0.1336604687693792
+            },
+            "60": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9603296802763894,
+                "mape": 133474,
+                "rmse": 0.07401487355953153
+            },
+            "70": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9472853945701063,
+                "mape": 224215,
+                "rmse": 0.08532015412480108
+            },
+            "80": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8709732584105623,
+                "mape": 5240,
+                "rmse": 0.13348301763580928
+            },
+            "90": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9809985582592272,
+                "mape": 290430,
+                "rmse": 0.051224700569389575
+            },
+            "100": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9564616919419975,
+                "mape": 36976,
+                "rmse": 0.07753930877722226
+            },
+            "125": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.8880575616048344,
+                "mape": 519190,
+                "rmse": 0.12433217544504957
+            },
+            "250": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9867805616124588,
+                "mape": 69598,
+                "rmse": 0.0427260410825302
+            },
+            "500": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9868434754393598,
+                "mape": 104254,
+                "rmse": 0.04262424913974236
+            },
+            "750": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.981224285279927,
+                "mape": 222192,
+                "rmse": 0.05091953044922235
+            },
+            "1000": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.992688214954916,
+                "mape": 105825,
+                "rmse": 0.03177589991330561
+            },
+            "1250": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9732496075851909,
+                "mape": 46117,
+                "rmse": 0.06077867525369782
+            },
+            "2500": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9816535210404894,
+                "mape": 19705,
+                "rmse": 0.05033412401366352
+            },
+            "5000": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9845716556910373,
+                "mape": 61453,
+                "rmse": 0.046157875601368595
+            },
+            "7500": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9970919440073064,
+                "mape": 86558,
+                "rmse": 0.020039530085510925
+            },
+            "10000": {
+                "hidden_count": 9,
+                "hidden_size": 85,
+                "activation": "tanh",
+                "learning_rate": 0.0029312113726972138,
+                "epochs": 42,
+                "r2": 0.9849467559251481,
+                "mape": 93572,
+                "rmse": 0.04559331845040163
+            }
+        }
+    }
+}
